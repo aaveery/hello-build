@@ -1,0 +1,90 @@
+body {
+    background-color: #edf2f7;
+    color: #68778d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+/** header **/
+
+header {
+    background-color: #fff;
+    margin-top: 36px;
+    padding: 36px 0 72px 0;
+}
+
+h1 {
+    color: #63b3ed;
+    font-size: 125px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.callout p {
+    color: #8594ad;
+    font-size: 32px;
+    margin-right: 20px;
+}
+
+.callout span {
+    color: #63b3ed;
+}
+
+.callout a {
+    background-color: #dd6b20;
+    border: 2px solid #dd6b20;
+    color: #fff;
+    font-size: 24px;
+    padding: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.callout a:hover {
+    background-color: #fff;
+    color: #dd6b20;
+}
+
+.callout {
+    display: flex;
+    justify-content: center;
+}
+
+/* column layout */
+.col {
+    background-color: #fff;
+    font-size: 18px;
+    margin-bottom: 36px;
+    padding-bottom: 36px;
+    text-align: center;
+    width: 300px;
+}
+
+.col img {
+    margin-bottom: 36px;
+    width: 300px; /* added this bc I screenshotted instead of grabbing from ps file */
+}
+
+.col h2 {
+    font-weight: bold;
+    line-height: 2;  /* 36px */
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+/** footer  **/
+footer {
+    background-color: #fff;
+    font-style: italic;
+    padding: 15px 30px;
+}
